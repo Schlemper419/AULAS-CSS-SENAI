@@ -69,7 +69,11 @@ nav ul li a:hover {
     justify-content: space-between;
 }
 
-.posts{
+.posts .card{
+    width: 360px;
+}
+
+.posts img{
     border-radius: 20px 20px 0 0;
 }
 
@@ -94,5 +98,73 @@ nav ul li a:hover {
     padding: 10px 14px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+
     
 }
+
+.posts a:hover{
+    background: #554480;
+}
+
+.novidades .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.novidades h1{
+    font-size: 30px;
+}
+
+.nosso-time .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.nosso-time h1{
+    font-size: 30px;
+}
+
+
+
+.posts .footer-card{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-top .container{
+    
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid ;
+    margin-bottom: 63px;
+    
+    
+    
+}
+
+.link-group a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin: 25px 0px;
+}
+
+.footer-bottom p{
+    
+    display: flex;
+    justify-content: center;
+    background: #d9d9d9;
+    height: 56px;
+    align-items: center;
+}
+
+
+
+
+
