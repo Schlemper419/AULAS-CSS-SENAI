@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: #EEE;
+        }
+
+        header{
+            background: #CCC;
+            margin: 10px 20px 5px 25px; /* topo, direita, baixo, esquerda */
+        }
+
+        main{
+            background: #aaa;
+            padding: 20px 10px; /* topo baixo, esquerda direita */
+        }
+
+        p{
+            color: #F00;
+        }
+
+        #primeiro-paragrafo{
+            color: #0ff;
+        }
+
+        footer{
+            background: #333;
+            color: #fff;
+        }
+
+        .paragrafo-padrao-classe{
+            color: #FF0;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Titulo Principal</h1>
+    </header>
+
+    <main>
+        <h2>Titulo Secundário</h2>
+        <p id="primeiro-paragrafo">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eaque reiciendis iusto quaerat pariatur ratione sit neque rerum qui dolor nihil, fugiat repudiandae omnis iste enim ab adipisci molestiae in?
+        </p>
+        <section>
+            <article>
+
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero aut excepturi rerum voluptate nulla nisi a, error ea ratione ipsum assumenda molestias alias voluptas veritatis ut. Necessitatibus, quod aut.</p>
+
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero aut excepturi rerum voluptate nulla nisi a, error ea ratione ipsum assumenda molestias alias voluptas veritatis ut. Necessitatibus, quod aut.</p>
+
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero aut excepturi rerum voluptate nulla nisi a, error ea ratione ipsum assumenda molestias alias voluptas veritatis ut. Necessitatibus, quod aut.</p>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <address> &copy; Todos os direitos reservados </address>
+    </footer>
+
+</body>
+</html>
