@@ -366,7 +366,37 @@ footer .footer-group-links h5{
     margin: 13px 0;
 }
 
+/* design responsivo */
 
+@media (max-width:480px){
+    .container{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+
+.cta p{
+    width: 100%;
+}
+
+.brands, .about-us-video{
+    display: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.work .work-image{
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.ready fieldset{
+    flex-direction: column;
+}
+
+}
 
 
 
